@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24237" started-at="2020-08-14T16:31:31 CDT" finished-at="2020-08-14T16:31:55 CDT">
+    <groups>
+    </groups>
+    <test name="Academy.WindowsSwitch" duration-ms="18888" started-at="2020-08-14T16:31:31 CDT" finished-at="2020-08-14T16:31:49 CDT">
+      <class name="Academy.WindowsSwitch">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.WindowsSwitch@17bffc17]" name="initialize" is-config="true" duration-ms="9658" started-at="2020-08-14T16:31:31 CDT" finished-at="2020-08-14T16:31:40 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="windowSwitch()[pri:0, instance:Academy.WindowsSwitch@17bffc17]" name="windowSwitch" duration-ms="7555" started-at="2020-08-14T16:31:40 CDT" finished-at="2020-08-14T16:31:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowSwitch -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.WindowsSwitch@17bffc17]" name="close" is-config="true" duration-ms="1673" started-at="2020-08-14T16:31:48 CDT" finished-at="2020-08-14T16:31:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.WindowsSwitch -->
+    </test> <!-- Academy.WindowsSwitch -->
+    <test name="Academy.HomePage" duration-ms="24237" started-at="2020-08-14T16:31:31 CDT" finished-at="2020-08-14T16:31:55 CDT">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@2a8448fa]" name="initialize" is-config="true" duration-ms="9013" started-at="2020-08-14T16:31:31 CDT" finished-at="2020-08-14T16:31:40 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@2a8448fa]" name="basPageNavigation" duration-ms="11509" started-at="2020-08-14T16:31:40 CDT" data-provider="getData" finished-at="2020-08-14T16:31:51 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basPageNavigation -->
+        <test-method status="PASS" signature="basPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@2a8448fa]" name="basPageNavigation" duration-ms="3505" started-at="2020-08-14T16:31:51 CDT" data-provider="getData" finished-at="2020-08-14T16:31:55 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basPageNavigation -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.HomePage@2a8448fa]" name="close" is-config="true" duration-ms="203" started-at="2020-08-14T16:31:55 CDT" finished-at="2020-08-14T16:31:55 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Academy.HomePage -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="21929" started-at="2020-08-14T16:31:55 CDT" finished-at="2020-08-14T16:32:17 CDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@dc7df28]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Academy.ValidateTitle" duration-ms="21929" started-at="2020-08-14T16:31:55 CDT" finished-at="2020-08-14T16:32:17 CDT">
+      <class name="CucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:CucumberOptions.TestRunner@dc7df28]" name="setUpClass" is-config="true" duration-ms="331" started-at="2020-08-14T16:31:55 CDT" finished-at="2020-08-14T16:31:55 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@dc7df28]" name="feature" duration-ms="21519" started-at="2020-08-14T16:31:55 CDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-14T16:32:17 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login to Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestRunner@dc7df28]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-08-14T16:32:17 CDT" finished-at="2020-08-14T16:32:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberOptions.TestRunner -->
+    </test> <!-- Academy.ValidateTitle -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

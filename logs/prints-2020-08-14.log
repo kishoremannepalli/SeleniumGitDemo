@@ -1,0 +1,8 @@
+16:31:31.065 [TestNG-tests-2] INFO  Base - http://www.qaclickacademy.com/
+16:31:31.065 [TestNG-tests-4] INFO  Base - http://www.qaclickacademy.com/
+16:31:35.188 [TestNG-tests-2] INFO  Base - driver intialized
+16:31:40.709 [TestNG-tests-4] INFO  Base - driver intialized
+16:31:41.304 [TestNG-tests-2] INFO  Base - Url got invoked
+16:31:41.304 [TestNG-tests-2] INFO  Base - Navigated to Home
+16:31:55.857 [TestNG-tests-1] INFO  Base - chrome
+16:31:55.857 [TestNG-tests-1] INFO  Base - http://www.qaclickacademy.com/

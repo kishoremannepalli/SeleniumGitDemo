@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.452 s <<< FAILURE! - in TestSuite
+Academy.ValidateTitle.webElementsCheck  Time elapsed: 1.916 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED1 COURSES] but found [FEATURED COURSES]
+	at Academy.ValidateTitle.webElementsCheck(ValidateTitle.java:39)
+
